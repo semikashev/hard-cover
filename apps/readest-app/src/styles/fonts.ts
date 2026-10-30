@@ -8,6 +8,7 @@ export type FontFormat = 'ttf' | 'otf' | 'woff' | 'woff2';
 const basicGoogleFonts = [
   { family: 'Bitter', weights: 'ital,wght@0,100..900;1,100..900' },
   { family: 'Fira Code', weights: 'wght@300..700' },
+  { family: 'Golos Text', weights: 'wght@400..900' },
   { family: 'Literata', weights: 'ital,opsz,wght@0,7..72,200..900;1,7..72,200..900' },
   { family: 'Merriweather', weights: 'ital,opsz,wght@0,18..144,300..900;1,18..144,300..900' },
   { family: 'Noto Sans', weights: 'ital,wght@0,100..900;1,100..900' },

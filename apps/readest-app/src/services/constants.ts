@@ -358,9 +358,9 @@ export const DEFAULT_MOBILE_READSETTINGS: Partial<ReadSettings> = {
 
 export const DEFAULT_BOOK_FONT: BookFont = {
   serifFont: 'Bitter',
-  sansSerifFont: 'Roboto',
+  sansSerifFont: 'Golos Text',
   monospaceFont: 'Consolas',
-  defaultFont: 'Serif',
+  defaultFont: 'Sans-serif',
   defaultCJKFont: 'LXGW WenKai GB Screen',
   defaultFontSize: 16,
   minimumFontSize: 8,
@@ -638,7 +638,14 @@ export const CJK_SERIF_FONTS = [
 
 export const CJK_SANS_SERIF_FONTS = ['Noto Sans SC', 'Noto Sans TC'];
 
-export const SANS_SERIF_FONTS = ['Roboto', 'Noto Sans', 'Open Sans', 'PT Sans', 'Helvetica'];
+export const SANS_SERIF_FONTS = [
+  'Golos Text',
+  'Roboto',
+  'Noto Sans',
+  'Open Sans',
+  'PT Sans',
+  'Helvetica',
+];
 
 export const MONOSPACE_FONTS = [
   'Fira Code',
